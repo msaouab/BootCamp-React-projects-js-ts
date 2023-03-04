@@ -1,0 +1,70 @@
+
+.App {
+  text-align: center;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+section {
+  margin-top: 40px;
+  border: 2px dashed;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  padding: 15px 0;
+}
+
+input {
+  outline: none;
+  width: 300px;
+  margin-right: 5px;
+}
+
+input, .add {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  transition: border-color 0.25s;
+}
+
+.add {
+  background-color: #1a1a1a;
+}
+.add:hover {
+  border-color: #646cff;
+}
+.add:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+ul {
+  align-items:first baseline;
+  padding: 0;
+  width: 80%;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 6px 10px;
+  margin: 6px 0;
+  border-bottom: 1px solid;
+  border-radius: 12px;
+}
+
+button {
+  cursor: pointer;
+}
