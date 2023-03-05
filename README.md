@@ -1,6 +1,6 @@
 # ReactProject
 
-## React Projects for Beginners in 2023 – Fun Ideas with Code
+## React Projects for Beginners in 2023 – Fun Ideas
 
 You're ready to start making simple projects with React, but you don't know what to make. Where should you start?
 
