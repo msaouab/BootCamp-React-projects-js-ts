@@ -1,0 +1,124 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 40vw;
+  margin: auto;
+}
+
+h1 {
+  margin: 20px auto;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  height: 50px;
+}
+
+input, button {
+  width: 50%;
+  border-radius: 8px;
+  border: 1px solid wheat;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+input {
+  margin-right: 5px;
+  padding: 10px 8px;
+}
+
+button {
+  margin-left: 5px;
+  cursor: pointer;
+}
+button:hover {
+
+}
+
+button:disabled {
+  border: 1px solid red;
+  cursor: not-allowed;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.user {
+  border: 1px solid;
+  max-width: 200px;
+  min-width: 100px;
+  margin-bottom: 5px;
+  border-radius: 12px;
+  margin: 5px 5px;
+}
+
+img {
+  border: none;
+  cursor: pointer;
+}
+a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px 0 0 0;
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    max-width: 90%;
+    margin: 0;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 8px;
+    margin: 20px auto;
+  }
+  h3 {
+    margin-top: 100px;
+  }
+}
