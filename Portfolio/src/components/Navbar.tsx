@@ -3,13 +3,13 @@ import styled from 'styled-components'
 
 const NavBarStyle = styled.nav`
 	color: aliceblue;
-	padding-top: 1rem;
 	position: fixed;
 	width: 100%;
 	font-family: 'Courier New', Courier, monospace;
-	box-sizing: border-box;
 	ul{
+		height: 3rem;
 		display: flex;
+		align-items: center;
 		justify-content: space-evenly;
 		li {
 			list-style: none;
@@ -17,6 +17,7 @@ const NavBarStyle = styled.nav`
 			padding: 0.5rem 1rem;
 			border-radius: 5px;
 			border: 1px solid transparent;
+			text-shadow: 1px 1px 10px;
 		}
 		li:hover {
 			border: 1px solid white;
