@@ -20,7 +20,7 @@ Let's get started!
 - Conditionals (ternaries)
 - Lists, keys, and .map()
 
-Final result: [comming soon]()
+Final result: ![](./img/Image%20Carousel.png)
 
 ### 2. FAQ/Accordion
 - Another common type of component which can utilizes state is an accordion component, which can both reveal and hide text.
@@ -30,7 +30,9 @@ Final result: [comming soon]()
 - Passing data to components via props
 - Displaying multiple components with .map()
 
-Final result: [comming soon]()
+Final result:
+
+<img src="./img/FAQ:Accordion.gif" width="500px">
 
 ### 3. Quote Generator
 - Using external APIs and making HTTP requests are an essential part of any React application. To learn how to make HTTP requests in React, we will make a random quote generator.
@@ -40,5 +42,5 @@ Final result: [comming soon]()
 - HTTP requests with Fetch API
 - Conditional chaining operator (?)
 
-Final result: [comming soon]()
+Final result: ![](./img/Quote%20Generator.gif)
 
